@@ -1,0 +1,34 @@
+.intro {
+  display: flex;
+  flex-wrap: flex;
+  padding-top: 3%;
+  justify-content: space-between;
+}
+.text-box {
+  width: 50%;
+}
+img {
+  height: 70vh;
+  border-radius: 400px;
+}
+p {
+  font-size: 4vh;
+  font-family: Karla;
+}
+
+@media screen and (max-width: 425px) {
+  #matt-pic {
+    height: 40vh;
+  }
+  #intro-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #intro-text-box {
+    width: 95%;
+  }
+  #intro-text {
+    font-size: 2.5vh;
+  }
+}

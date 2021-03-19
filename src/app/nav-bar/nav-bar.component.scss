@@ -1,0 +1,71 @@
+.top {
+  font-size: 2.5vh;
+  border-bottom: solid black;
+  background-color: #145277;
+  color:white;
+}
+
+.title-f {
+  font-family: Heebo;
+  padding: 20;
+  font-size: 4.25vh;
+  font-weight: bold;
+  cursor: default;
+}
+
+.nav-item {
+  border-left: solid white 1.25px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+  font-family: Karla;
+  cursor: default;
+}
+
+a:hover {
+  color: white;
+}
+
+mat-icon {
+  color: white;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 425px) {
+  .nav-item {
+     font-size: 2.5vh;
+   }
+   #intro {
+     border-left: none;
+   }
+   #ed {
+    border-left: none;
+  }
+  #skill {
+    border-left: none;
+  }
+  #train {
+    border-left: none;
+  }
+  #current {
+    border-left: none;
+  }
+  #past {
+    border-left: none;
+  }
+  #port {
+    border-left: none;
+  }
+  #con {
+    border-left: none;
+  }
+ }
