@@ -2,3 +2,15 @@ ul {
   font-size: 4vh;
   font-family: Karla;
 }
+.training {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  #training-mob {
+    display: block;
+  }
+  .space-mob {
+    display: none;
+  }
+}
